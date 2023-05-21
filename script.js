@@ -6,7 +6,7 @@ function insert_Row() {
   const tdata = row.insertCell(0);
   const tdata2 = row.insertCell(1);
   tdata.innerText = "New Cell1";
-  tdata2.innerText="NewCell2";
+  tdata2.innerText="New Cell2";
   row.appendChild(tdata);
   row.appendChild(tdata2); 
  
